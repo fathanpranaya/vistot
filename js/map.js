@@ -177,7 +177,7 @@ $(function () {
     ];
 
     // Initiate the chart
-    $('#container').highcharts('Map', {
+    $('#mapcontainer').highcharts('Map', {
 
         title : {
             text : 'Peta Kemiskinan Indonesia'
