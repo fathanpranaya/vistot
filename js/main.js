@@ -141,10 +141,10 @@ $(function () {
     ];
 
     // Initiate the chart
-    $('#container').highcharts('Map', {
+    $('#mapcontainer').highcharts('Map', {
 
         title : {
-            text : 'Highmaps basic demo'
+            text : ' '
         },
 
         subtitle : {
