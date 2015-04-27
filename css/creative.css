@@ -44,6 +44,7 @@ h5,
 h6 {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
+h2 {color: #000;}
 
 p {
     margin-bottom: 20px;
@@ -52,7 +53,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #f05f40;
+    background-color: #f7f7f7;
 }
 
 .bg-dark {
