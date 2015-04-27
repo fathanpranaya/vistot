@@ -1,0 +1,89 @@
+.narasi
+{
+    background: #222d32;
+    color: #ffffff;
+    font-size: 1.25em;
+    padding: 2em;
+    text-align: justify;
+    z-index: 1000000;
+    bottom: 0;
+    font-size: 1em;
+    height: 100%;
+    right: 0;
+    padding: 2em;
+    position: fixed;
+    transition: right 1.0s;
+    width: 300px;
+}
+    
+.narasi header
+{
+    text-align: center;
+}
+   
+.narasi header h1
+{
+    font-size: 4em;
+    text-transform: uppercase;
+}    
+
+
+.narasi header p
+{    
+    font-size: 2em;
+}
+
+.narasi-toggle
+{
+    display: none;
+}
+    
+.narasi .narasi-toggle
+{
+    background: #222d32;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px #222d32;
+    color: #ffffff;
+    display: block;
+    height: 40px;
+    width: 40px;
+    left: -20px;
+    line-height: 40px;
+    margin: 0;
+    outline: none;
+    padding: 0;
+    position: absolute;
+    bottom: 50%;
+    
+    
+}
+
+
+.narasi .narasi-toggle .glyphicon
+{
+    display: block;
+    transition: transform 1.0s;
+}
+        
+.narasi.narasi-closed
+{
+    display: :inline-block;
+    transition: right 1.0s;
+    
+    
+}
+
+
+.narasi.narasi-closed .narasi-toggle .glyphicon
+{
+    transform: rotate(180deg);
+    transition: transform 1.0s;
+}
+
+.narasi.narasi-closed
+{
+    right: -276px;
+    transition: right 1.0s;
+    
+}
