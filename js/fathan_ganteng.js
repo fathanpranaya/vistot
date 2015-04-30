@@ -43,7 +43,9 @@ $(function () {
                         // Load the drilldown map
                         $.getScript('js/district/' + mapKey + '.js', function () {
 
-                            data = Highcharts.geojson(Highcharts.maps[mapKey]);
+                            // data = Highcharts.geojson(Highcharts.maps[mapKey]);
+
+                            console.log(data);
 
                             // Set a non-random bogus value
                             $.each(data, function (i) {
@@ -55,10 +57,12 @@ $(function () {
                             clearTimeout(fail);
                             chart.addSeriesAsDrilldown(e.point, {
                                 name: e.point.name,
-                                data: data,
+                                data: Banten_Data,
+                                mapData: Highcharts.maps['Banten'],
+                                joinBy: 'NAME2',
                                 dataLabels: {
                                     enabled: true,
-                                    format: '{point.name}'
+                                    format: '{point.NAME2}'
                                 }
                             });
                         });
@@ -68,7 +72,7 @@ $(function () {
                     this.setTitle(null, { text: e.point.name });
                 },
                 drillup: function () {
-                    this.setTitle(null, { text: 'USA' });
+                    this.setTitle(null, { text: 'Indonesia' });
                 }
             }
         },
@@ -78,7 +82,7 @@ $(function () {
         },
 
         subtitle: {
-            text: 'USA',
+            text: 'Indonesia',
             floating: true,
             align: 'right',
             y: 50,
@@ -118,7 +122,7 @@ $(function () {
 
         series : [{
             data : data,
-            name: 'USA',
+            name: 'Indonesia',
             dataLabels: {
                 enabled: true,
                 format: '{point.properties.postal-code}'

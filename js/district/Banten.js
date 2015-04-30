@@ -11,3 +11,36 @@ Highcharts.maps["Banten"] = {
 { "type": "Feature", "properties": { "MM_UID": 256, "CODE": "ID.BT.CL", "NAME1": "Banten", "NAME2": "Cilegon", "DIVISION": "Province" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 106.03361609229616, -5.88613772239609 ], [ 106.06453494456485, -6.084276272810547 ], [ 106.01887017813723, -6.120074515407628 ], [ 106.01956707015501, -6.049138243703986 ], [ 105.9233226146481, -6.046350675632902 ], [ 106.03361494609217, -5.886138868600066 ], [ 106.03361609229616, -5.88613772239609 ] ] ] ] } }
 ]
 }
+
+var Banten_Data = [
+        {
+            "NAME2": "Pandeglang",
+            "value": 0,
+            "nilai": '100'
+        },
+        {
+            "NAME2": "Lebak", //Aceh
+            "value": Math.round(1741447/4494410*100),
+            "nilai": '1.741.447'
+        },
+        {
+            "NAME2": "Kota Tangerang", //Kalimantan Timur
+            "value": Math.round(726040/3553143*100),
+            "nilai": '726.040'
+        },
+        {
+            "NAME2": "Tangerang", //Jawa Tengah
+            "value": Math.round(12310674/32382657*100),
+            "nilai": '12.310.674'
+        },
+        {
+            "NAME2": "Serang", //Bengkulu
+            "value": Math.round(552490/1715518*100),
+            "nilai": '552.490'
+        },
+        {
+            "NAME2": "Cilegon", //Banten
+            "value": Math.round(2815193/10632166*100),
+            "nilai": '2.815.193'
+        }
+    ];
