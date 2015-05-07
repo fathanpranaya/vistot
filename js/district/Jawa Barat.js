@@ -30,3 +30,132 @@ Highcharts.maps["Jawa Barat"] = {
 { "type": "Feature", "properties": { "MM_UID": 207, "CODE": "ID.JR.SM", "NAME1": "Jawa Barat", "NAME2": "Kota Sukabumi", "DIVISION": "Province" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 106.90616157707274, -6.909028490374962 ], [ 106.95604322793027, -6.975784556175954 ], [ 106.85418695775394, -6.984880830934229 ], [ 106.90616043086877, -6.909029636578939 ], [ 106.90616157707274, -6.909028490374962 ] ] ] } }
 ]
 }
+
+var Jawa Barat_Data = [
+        {
+            "NAME2": "Cianjur",
+            "value": 0,
+            "nilai": '100'
+        },
+        {
+            "NAME2": "Banjar", 
+            "value": Math.round(1741447/4494410*100),
+            "nilai": '1.741.447'
+        },
+        {
+            "NAME2": "Kota Tasikmalaya", //Kalimantan Timur
+            "value": Math.round(726040/3553143*100),
+            "nilai": '726.040'
+        },
+        {
+            "NAME2": "Sukabumi", 
+            "value": Math.round(12310674/32382657*100),
+            "nilai": '12.310.674'
+        },
+        {
+            "NAME2": "Ciamis", 
+            "value": Math.round(552490/1715518*100),
+            "nilai": '552.490'
+        },
+        {
+            "NAME2": "Tasikmalaya",
+            "value": Math.round(2815193/10632166*100),
+            "nilai": '2.815.193'
+        }
+        {
+            "NAME2": "Garut",
+            "value": Math.round(2815193/10632166*100),
+            "nilai": '2.815.193'
+        }
+        {
+            "NAME2": "Kota Bandung",
+            "value": Math.round(2815193/10632166*100),
+            "nilai": '2.815.193'
+        }
+        {
+            "NAME2": "Cimahi",
+            "value": Math.round(2815193/10632166*100),
+            "nilai": '2.815.193'
+        }
+        {
+            "NAME2": "Kuningan",
+            "value": Math.round(2815193/10632166*100),
+            "nilai": '2.815.193'
+        }
+        {
+            "NAME2": "Cirebon",
+            "value": Math.round(2815193/10632166*100),
+            "nilai": '2.815.193'
+        }
+        {
+            "NAME2": "Kota Cirebon",
+            "value": Math.round(2815193/10632166*100),
+            "nilai": '2.815.193'
+        }
+        {
+            "NAME2": "Sumedang",
+            "value": Math.round(2815193/10632166*100),
+            "nilai": '2.815.193'
+        }
+        {
+            "NAME2": "Majalengka",
+            "value": Math.round(2815193/10632166*100),
+            "nilai": '2.815.193'
+        }
+        {
+            "NAME2": "Depok",
+            "value": Math.round(2815193/10632166*100),
+            "nilai": '2.815.193'
+        }
+        {
+            "NAME2": "Bogor",
+            "value": Math.round(2815193/10632166*100),
+            "nilai": '2.815.193'
+        }
+        {
+            "NAME2": "Subang",
+            "value": Math.round(2815193/10632166*100),
+            "nilai": '2.815.193'
+        }
+        {
+            "NAME2": "Bekasi",
+            "value": Math.round(2815193/10632166*100),
+            "nilai": '2.815.193'
+        }
+        {
+            "NAME2": "Bandung",
+            "value": Math.round(2815193/10632166*100),
+            "nilai": '2.815.193'
+        }
+        {
+            "NAME2": "Kota Bekasi",
+            "value": Math.round(2815193/10632166*100),
+            "nilai": '2.815.193'
+        }
+        {
+            "NAME2": "Karawang",
+            "value": Math.round(2815193/10632166*100),
+            "nilai": '2.815.193'
+        }
+        {
+            "NAME2": "Kota Bogor",
+            "value": Math.round(2815193/10632166*100),
+            "nilai": '2.815.193'
+        }
+        {
+            "NAME2": "Purwakarta",
+            "value": Math.round(2815193/10632166*100),
+            "nilai": '2.815.193'
+        }
+        {
+            "NAME2": "Indramayu",
+            "value": Math.round(2815193/10632166*100),
+            "nilai": '2.815.193'
+        }
+        {
+            "NAME2": "Kota Sukabumi",
+            "value": Math.round(2815193/10632166*100),
+            "nilai": '2.815.193'
+        }
+    ];
+

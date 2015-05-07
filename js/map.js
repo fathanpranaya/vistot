@@ -187,6 +187,7 @@ $(function () {
             text : 'Sumber : Basis Data Terpadu Tim Nasional Percepatan Penanggulangan Kemiskinan'
         },
 
+
         mapNavigation: {
             enabled: true,
             buttonOptions: {
@@ -227,6 +228,7 @@ $(function () {
         if (type !== '0') {
             if (type == 'kemiskinan') {
                 var cdh = $('#mapcontainer').highcharts('Map', {
+                    
                     title : {
                         text : 'Peta Kemiskinan Indonesia'
                     },
