@@ -1,5 +1,7 @@
 $(function () {
-
+    Highcharts.setOptions({
+     colors: ['#6dcff6', '#00bff3', '#7da7d9', '#00aeef', '#448ccb', '#0072bc', '#0076a3' ]
+    }); 
     // Create the chart
     $('#drilldown').highcharts({
         chart: {
@@ -20,7 +22,8 @@ $(function () {
             series: {
                 borderWidth: 0,
                 dataLabels: {
-                    enabled: true
+                    enabled: true,
+                    format: '{y} %'
                 }
             }
         },
